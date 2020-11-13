@@ -8,6 +8,10 @@ author: '@k4u5h4L'
 
 Make a discord bot which talks with you!
 
+| What you'll build       |
+| ----------------------- |
+| ![workshop demo](https://cloud-bu5ume7yu.vercel.app/0discord-chatbot-demo.gif) |
+
 References:
 
 - Here's the [final code](https://repl.it/@k4u5h4L/discord-chatbot-complete).
