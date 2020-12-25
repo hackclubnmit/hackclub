@@ -308,14 +308,13 @@ function flipCard() {
   }
 }
 ```
-
-<details>
-  <summary> Here's what the code looks like so far: </summary>
+  
+Here's what the code looks like so far:
   
 ```javascript
 document.addEventListener('DOMContentLoaded', () => {
   const cardArray = [....]// the cardArray we created before
-  
+
   const board = document.querySelector('.board')
   const result = document.querySelector('#score')
   const placeholder = "https://cloud-5ystxzer7.vercel.app/7placeholder.png"
@@ -346,10 +345,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
   createBoard()
-  })
+})
 ```
-
-</details>
 
 Don't forget to uncomment the event-listener of the card.
 Comment the `if` statement in `flipCard` function and check whether the images are changing or not. The output works like this.
@@ -429,8 +426,9 @@ result.textContent = cardsMatched.length
 ```
 
 <details>
-  <summary> Our code so far: </summary>
-  
+
+<summary> Our code so far will be: </summary>
+
 ```javascript
 document.addEventListener('DOMContentLoaded', () => {
   const cardArray = [....]
@@ -477,13 +475,12 @@ document.addEventListener('DOMContentLoaded', () => {
     if  (cardsMatched.length === cardArray.length/2) {
       result.textContent = 'Congratulations! You found them all!'
     }
+  }
 
-}
-
-createBoard()
+  createBoard()
 })
-
 ```
+
 </details>
 
 One thing you might notice that the cards are not random. So we have to shuffle the `cardArray`, every time before creating the board, using `sort()` method. The [sort()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort) method sorts the elements of an array in place and returns the sorted array.
