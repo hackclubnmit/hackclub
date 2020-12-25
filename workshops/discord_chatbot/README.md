@@ -1,26 +1,18 @@
 ---
 name: Discord Chatbot
-description: Make a Discord bot with Discord.js and Dialogflow which talks with you!
+description: Make a Discord bot that talks to you using ML
 author: '@k4u5h4L'
 ---
-
-# Discord Chatbot
-
-Make a discord bot which talks with you!
 
 | What you'll build       |
 | ----------------------- |
 | ![workshop demo](https://cloud-bu5ume7yu.vercel.app/0discord-chatbot-demo.gif) |
 
 References:
-
 - Here's the [final code](https://repl.it/@k4u5h4L/discord-chatbot-complete).
-
 - Here's the [starter code](https://repl.it/@k4u5h4L/discord-chatbot).
 
 The workshop should take about 20 minutes.
-
-The video tutorial for this workshop is linked at the bottom of this workshop with the required links for documentation and resources.
 
 I will leave all reference links below so that it will be easy for you to find it in one place
 
@@ -41,7 +33,7 @@ Keep this page open for a while, as we may be taking some stuff from here...
 
 ![new app](https://cloud-9x2pb85rb.vercel.app/screenshot1.png)
 
-Go ahead and give it a cool name! I'm going to name it as doodle-noddle, but you can name it whatever you want!
+Go ahead and give it a cool name! I'm going to name it as doodle-noodle, but you can name it whatever you want!
 
 ![fill name](https://cloud-9x2pb85rb.vercel.app/screenshot2.png)
 
@@ -50,7 +42,7 @@ Now go to the bot section in the menu on the left hand side, and add a new bot.
 
 ![add bot](https://cloud-9x2pb85rb.vercel.app/screenshot3.png)
 
-If you get any formation like this, click on "yes, do it".
+If you get any popup like this, click on "yes, do it".
 
 ![confirm bot](https://cloud-9x2pb85rb.vercel.app/screenshot4.png)
 
@@ -366,7 +358,3 @@ Here are the codes some demos of how the project can be expanded upon:
 ## Note:
 
 - If I may have disclosed any API keys in this workshop, please don't use the same keys since I have already revoked them and they don't work anymore. You have to visit those sites and get registered to get your hands on these keys.
-
-- To those of you people who felt difficult following this workshop, we got your back! We have an extensive Youtube video covering topics from the beginning to the very end. So just click on on the below picture if you're confused!
-
-  [![discord.js bot](https://img.youtube.com/vi/FwIi2Z-7fmI/0.jpg)](https://www.youtube.com/watch?v=FwIi2Z-7fmI)
